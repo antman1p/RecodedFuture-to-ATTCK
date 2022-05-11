@@ -1,0 +1,7 @@
+###### Requirements without Version Specifiers ######
+python-dotenv 
+gql 
+requests 
+requests_toolbelt 
+pydantic 
+beautifulsoup4
