@@ -1,5 +1,5 @@
-# Recorded Future Export to JSON Scripts
-Use these scripts to convert CSV data exported from Recorded Future to import into various applications such as ATT&CK Navigator and Vectr
+# Recorded Future Export to ATT&CK Scripts
+Use these scripts to convert CSV data exported from [Recorded Future](https://www.recordedfuture.com/) to import into various applications such as [ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/) and SRA [Vectr](https://github.com/SecurityRiskAdvisors/VECTR)
 ## Usage
 ###### General
 1. Export APT date from Recorded Future to CSV
@@ -21,3 +21,5 @@ This script takes CSV data exported by Recorded Future and outputs the JSON docu
 This script takes CSV data exported from Recorded Future and uses the Vectr API to create a new campaign in an asessment (defined in the .env file), creates testcases, and populated the newly created campaign with the new test cases
 1. Follow the General Steps Above
 2. Run `python RFtoVectr.py`
+###### Citations
+1.  vectr_api_client.py and models.py are from [Vectr-Tools](https://github.com/SecurityRiskAdvisors/vectr-tools) from [Security Risk Advisors (SRA)](https://sra.io/) GitHub [project](https://github.com/SecurityRiskAdvisors)
